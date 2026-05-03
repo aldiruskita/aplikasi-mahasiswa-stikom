@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Data Mahasiswa TI</string>
+    <string name="tambah_siswa">Tambah Mahasiswa</string>
+    <string name="edit_siswa">Edit Mahasiswa</string>
+    <string name="hapus_siswa">Hapus Mahasiswa</string>
+    <string name="detail_siswa">Detail Mahasiswa</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
+    <string name="hapus">Hapus</string>
+    <string name="edit">Edit</string>
+    <string name="tutup">Tutup</string>
+</resources>
