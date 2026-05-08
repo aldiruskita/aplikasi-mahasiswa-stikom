@@ -104,3 +104,4 @@ public class Mahasiswa {
         this.rataRata = (nilaiPemrograman + nilaiBasisData + nilaiJaringan) / 3;
     }
 }
+
