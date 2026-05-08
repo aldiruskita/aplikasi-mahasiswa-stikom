@@ -1,37 +1,38 @@
-# 📚 Aplikasi Data Siswa
+#  Aplikasi Data Siswa
 
-## 👨‍💻 Identitas
+##  Identitas
 - **Nama:** Made Aldi Ruskita Salahin  
 - **NIM:** 230040070  
 
 Aplikasi Android untuk mengelola data siswa menggunakan database SQLite.  
-Aplikasi ini mendukung pengelolaan data siswa secara lengkap dengan tampilan modern dan mudah digunakan.
+Aplikasi ini mendukung pengelolaan data siswa secara lengkap dengan tampilan modern, responsif, dan mudah digunakan.
 
 ---
 
-# ✨ Fitur Utama
+#  Fitur Utama
 
-## 🗄️ Kelola Data dengan SQLite
+##  Kelola Data dengan SQLite
 - Menggunakan SQLite sebagai database lokal
 - Menyimpan data secara permanen
 - Mendukung operasi CRUD:
-  - Create (Tambah Data)
-  - Read (Lihat Data)
-  - Update (Edit Data)
-  - Delete (Hapus Data)
+  -  Create (Tambah Data)
+  -  Read (Lihat Data)
+  -  Update (Edit Data)
+  -  Delete (Hapus Data)
 
 ---
 
-## 📋 Menampilkan Data di List
+##  Menampilkan Data di List
 - Menggunakan RecyclerView
-- Desain CardView modern
-- Menampilkan:
+- Desain modern dengan CardView
+- Menampilkan informasi:
   - Nama Siswa
   - NIS
   - Kelas
   - Rata-rata Nilai
 
-### 🎨 Indikator Warna Nilai
+###  Indikator Warna Nilai
+
 | Warna | Keterangan | Nilai |
 |------|-------------|--------|
 | 🟢 Hijau | Sangat Baik | ≥ 80 |
@@ -40,82 +41,32 @@ Aplikasi ini mendukung pengelolaan data siswa secara lengkap dengan tampilan mod
 
 ---
 
-## 📊 Menyimpan Nilai dalam Database
+##  Penyimpanan Nilai
 - Nilai tersimpan permanen di SQLite
 - Perhitungan rata-rata otomatis
 - Validasi nilai:
-  - Minimum 0
-  - Maksimum 100
+  - Minimum: 0
+  - Maksimum: 100
+
+
+
+#  Tampilan Aplikasi
+
+##  Halaman Utama
+Menampilkan daftar data siswa menggunakan RecyclerView dengan desain CardView modern.
+
+![Demo Aplikasi 1](https://raw.githubusercontent.com/aldiruskita/aplikasi-mahasiswa-stikom/6bcdaee51705aad1dc7dcdcc64d02ff6c724daf0/demo1.png)
 
 ---
 
-# 🛠️ Teknologi yang Digunakan
-- Android Studio
-- Java / Kotlin
-- SQLite Database
-- RecyclerView
-- CardView
-- Material Design
+##  Halaman Tambah / Edit Data
+Halaman untuk menambahkan dan mengedit data siswa beserta nilai.
+
+![Demo Aplikasi 2](https://raw.githubusercontent.com/aldiruskita/aplikasi-mahasiswa-stikom/6bcdaee51705aad1dc7dcdcc64d02ff6c724daf0/demo2.png)
 
 ---
 
-# 📂 Struktur Data Siswa
-
-| Field | Tipe Data |
-|------|------------|
-| ID | Integer |
-| Nama | Text |
-| NIS | Text |
-| Kelas | Text |
-| Nilai Tugas | Integer |
-| Nilai UTS | Integer |
-| Nilai UAS | Integer |
-| Rata-rata | Double |
-
----
-
-# 🚀 Cara Menjalankan Aplikasi
-
-```bash
-1. Clone atau download project
-2. Buka project di Android Studio
-3. Tunggu proses Gradle selesai
-4. Jalankan aplikasi menggunakan emulator atau HP Android
-```
-
----
-
-# 📁 Struktur Project
-
-```bash
-app/
-├── java/com/example/datasiswa/
-│   ├── MainActivity.java
-│   ├── DatabaseHelper.java
-│   ├── SiswaAdapter.java
-│   ├── TambahSiswaActivity.java
-│   └── EditSiswaActivity.java
-│
-├── res/layout/
-│   ├── activity_main.xml
-│   ├── item_siswa.xml
-│   ├── activity_tambah_siswa.xml
-│   └── activity_edit_siswa.xml
-```
-
----
-
-# 📱 Tampilan Aplikasi
-- Halaman daftar siswa
-- Tambah data siswa
-- Edit data siswa
-- Hapus data siswa
-- Detail nilai siswa
-- Tampilan responsif dan menarik
-
----
-
-# 🎯 Tujuan Aplikasi
+#  Tujuan Aplikasi
 Aplikasi ini dibuat untuk:
 - Mempermudah pengelolaan data siswa
 - Mengurangi pencatatan manual
@@ -124,6 +75,11 @@ Aplikasi ini dibuat untuk:
 
 ---
 
-# 👨‍💻 Developer
+#  Developer
 **Made Aldi Ruskita Salahin**  
 NIM: 230040070
+
+---
+
+# 🔗 Repository GitHub
+https://github.com/aldiruskita/aplikasi-mahasiswa-stikom
