@@ -1,5 +1,8 @@
 # Aplikasi Data Siswa
 
+Nama : Made Aldi Ruskita Salahin
+Nim : 230040070
+
 Aplikasi Android untuk mengelola data siswa dengan database SQLite.
 
 Fitur Utama
